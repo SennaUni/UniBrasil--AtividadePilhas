@@ -36,7 +36,7 @@ public class StackString implements StackInterface {
 
     @Override
     public String pop() {
-        if (this.top < 0) throw new ExceptionCustomizada();
+        if (this.top < 0) throw new ExceptionCustomizada("A LISTA ESTÁ VAZIA! ESTA OPERAÇÃO NÃO PODE SER EXECUTADA");
 
         String element = this.ArrayStack[this.top];
         this.ArrayStack[this.top--] = null;
