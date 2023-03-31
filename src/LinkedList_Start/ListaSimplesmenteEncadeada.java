@@ -46,8 +46,8 @@ public class ListaSimplesmenteEncadeada<E> {
             i = i.getNext();
         }
         return "ListaSimplesmenteEncadeada {" +
-                "\nhead: " + head +
-                "\nsize: " + size +
+                "\nhead: " + this.head +
+                "\nsize: " + this.size +
                 "\nElementos da lista:  \n{\n" + itemsLista +
                 '}';
     }

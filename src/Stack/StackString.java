@@ -17,12 +17,12 @@ public class StackString implements StackInterface {
 
     @Override
     public int size() {
-        return top + 1;
+        return this.top + 1;
     }
 
     @Override
     public boolean isEmpty() {
-        return top < 0;
+        return this.top < 0;
     }
 
     @Override
