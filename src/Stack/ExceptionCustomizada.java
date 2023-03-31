@@ -1,3 +1,5 @@
+package Stack;
+
 public class ExceptionCustomizada extends ArrayIndexOutOfBoundsException {
     @Override
     public String getMessage(){

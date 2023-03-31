@@ -1,3 +1,5 @@
+package LinkedList_Stack;
+
 public interface StackInterface {
     public int size();
     public boolean isEmpty();

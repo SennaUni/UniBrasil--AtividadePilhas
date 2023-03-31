@@ -1,3 +1,5 @@
+package Stack;
+
 public class StackString implements StackInterface {
     protected String[] ArrayStack;
     public static final int DEFAULT_CAPACITY = 20;

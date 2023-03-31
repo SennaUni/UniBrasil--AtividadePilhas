@@ -1,3 +1,5 @@
+package Stack;
+
 public class TesteStack {
     private StackString Pilha;
 
