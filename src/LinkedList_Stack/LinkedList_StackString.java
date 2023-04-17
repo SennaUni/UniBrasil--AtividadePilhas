@@ -46,16 +46,15 @@ public class LinkedList_StackString implements StackInterface {
         System.out.println("Elemento removido: " + this.top.getElement());
         Node newHead = this.top.getNext();
         this.top = newHead;
-        System.out.println("Tamanho: " + this.size());
         this.capacity--;
-        System.out.println("Tamanho: " + this.size());
+
+        if (newHead == null) return "[ Stack vazia ]";
+
         return newHead.toString();
     }
 
     @Override
     public String toString() {
-        System.out.println("Tamanho: " + this.size());
-
         if (this.isEmpty()) return "[ Stack vazia ]";
 
         String returnString = "[";
